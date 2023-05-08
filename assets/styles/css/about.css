@@ -1,0 +1,95 @@
+:root {
+    --color-light-50: #f8fafc;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    --color-purple-50: #6DA9E4;
+    --color-purple-100: #19A7CE;
+    --color-purple-200: #146C94;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #146C94;
+    font-family: 'Inter', sans-serif;
+}
+
+.main{
+    background-image: url(./bg-img.png);
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.person-container {
+    color: #fff;
+
+}
+
+.person-container__img{
+    width: 120px;
+    border-radius: 50%;
+    border: 8px solid #19A7CE;
+    margin-bottom: 24px;
+}
+
+.person-container__name{
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.person-container__subtittle{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.info-box {
+    width: 340px;
+    height: 180px;
+    background-color: #19A7CE;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.info-box__tittle{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.contact-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.contact-container__link{
+    background-color: #13121a;
+    width: 56px;
+    height: 56px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container__icon{
+    width: 32px;
+}

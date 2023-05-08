@@ -1,0 +1,36 @@
+:root {
+    --color-light-50: #f8fafc;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    --color-purple-50: #6DA9E4;
+    --color-purple-100: #19A7CE;
+    --color-purple-200: #146C94;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: none;
+}
+
+.header-menu{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 25px;
+    color: var(--color-purple-100);
+}
+
+.header-menu:hover{
+    color: var(--color-purple-200);
+}

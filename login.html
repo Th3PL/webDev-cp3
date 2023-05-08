@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/css/login.css">
+    <link rel="stylesheet" href="./assets/styles/css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Login Dark/Light</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html" class="header-menu">Menu</a>
+        <a href="./about.html" class="header-menu">Sobre nós</a>
+        <a href="./login.html" class="header-menu">Login</a>
+    </header>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div> 
+
+            <div id="social_media">
+                <a href="">
+                    <img src="assets/styles/img/facebook.png" alt="facebook-logo">
+                </a>
+                <a href="">
+                    <img src="assets/styles/img/google.png" alt="google-logo">
+                </a>
+                <a href="">
+                    <img src="assets/styles/img/github.png" alt="github-logo">
+                </a>
+            </div>
+
+            <div id="inputs">
+              <div class="input-box">
+                <label for="name">
+                    Name
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="name" name="name">
+                    </div>
+                </label>
+              </div>
+
+              <div class="input-box">
+                <label for="email">
+                    email
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" id="email" name="email">
+                    </div>
+                </label>
+              </div> 
+
+              <div class="input-box">
+                <label for="password">
+                    Senha
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" id="password" name="password">
+                    </div>
+                </label>
+
+                <div id="forgot_password">
+                    <a href="">Forgot your password?</a>
+                </div>
+              </div>     
+            </div>
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+<script type="text/javascript" src="./assets/script/login.js"></script>
+</body>
+</html>
